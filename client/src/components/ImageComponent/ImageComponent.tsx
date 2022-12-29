@@ -1,4 +1,3 @@
-import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { setMarker } from '../../redux/actions/markerActions';
 import { useAppDispatch, useAppSelector } from '../hooks';

@@ -1,11 +1,10 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import {Provider} from 'react-redux';
 import {BrowserRouter} from 'react-router-dom';
 import store from './redux/store';
 import axios from 'axios';
-import { ThunkActionDispatch, ThunkDispatch } from 'redux-thunk';
+import { ThunkDispatch } from 'redux-thunk';
 import { AnyAction } from '@reduxjs/toolkit';
 
 export type RootState = ReturnType<typeof store.getState>

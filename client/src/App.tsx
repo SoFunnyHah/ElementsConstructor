@@ -1,8 +1,7 @@
-import React, {FC, useEffect} from 'react';
+import React from 'react';
 import NavBar from './components/NavBar';
 import {Route, Routes} from 'react-router-dom';
 import TablePage from './components/TablePage';
-import { useAppDispatch } from './components/hooks';
 const App: React.FC = () => {
 
 

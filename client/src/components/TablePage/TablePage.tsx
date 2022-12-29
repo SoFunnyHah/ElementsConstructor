@@ -1,6 +1,5 @@
-import React, {FC, useEffect, useState} from 'react';
+import {FC, useEffect} from 'react';
 import { Col, Row } from 'react-bootstrap';
-import { useSelector } from 'react-redux';
 import {Table} from 'reactstrap';
 import { fetchElemesAsync } from '../../redux/actions/elementsActions';
 import ElementForm from '../ElementForm';

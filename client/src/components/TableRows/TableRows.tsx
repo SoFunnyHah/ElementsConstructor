@@ -1,6 +1,4 @@
-import React, {FC} from 'react';
-import { Button, Col, Row } from 'react-bootstrap';
-import { useSelector } from 'react-redux';
+import { Button } from 'react-bootstrap';
 import { deleteElementAsync } from '../../redux/actions/elementsActions';
 import { setMarker } from '../../redux/actions/markerActions';
 import { useAppDispatch, useAppSelector } from '../hooks';
