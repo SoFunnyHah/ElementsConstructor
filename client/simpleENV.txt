@@ -1,0 +1,5 @@
+/*for copy*/
+REACT_APP_BASEURL=
+
+/*example*/
+REACT_APP_BASEURL=http://localhost:3001
