@@ -7,7 +7,6 @@ import { useAppDispatch } from '../hooks';
 import './ElementForm.scss';
 
 const ElementForm: React.FC = () => {
-  //???
   const optionList = [
     'БТ', 'УБТ', 'СБТ', 'Переводник','Калибратор',
     'Ясс','Долото', 'Амортизатор','ВЗД','КЛС','КОС', 
@@ -20,8 +19,6 @@ const ElementForm: React.FC = () => {
   const dispatch = useAppDispatch();
  
   const onChange = ( element:string) : void=> {
-    // e.preventDefault();
-    console.log('clicked with', element);
     dispatch(addElementAsync(element));
   }
  

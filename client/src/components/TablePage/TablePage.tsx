@@ -19,7 +19,6 @@ const TablePage: FC = () => {
   }, []);
 
   const rows = useAppSelector((state) => state.elementsList.rows);
-  console.log('rows id', rows);
     return (
       <>
     <ElementForm />

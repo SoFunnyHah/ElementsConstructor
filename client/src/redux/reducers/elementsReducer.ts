@@ -26,7 +26,6 @@ const initState: {
 
 export default function elementsReducer(state = initState, action: AnyAction ) {
   const { type, payload } = action;
-  console.log("payload is:", payload);
   switch (type) {
     case ADD_ELEMENT:
       return {

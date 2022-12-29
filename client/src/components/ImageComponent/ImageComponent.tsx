@@ -66,7 +66,6 @@ const ImageComponent = ({el, index}:Props) => {
   dispatch(setMarker(el.id))
  }
  const marker = useAppSelector((state)=>state.marker);
- console.log('MARKER IS:', marker);
 
   return (
     <>
